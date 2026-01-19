@@ -810,9 +810,9 @@
                     <p>A comprehensive article management platform where users can create, edit, search, and manage articles with proper user authentication and role-based access.</p>
                     
                     <div class="project-images">
-                        <img src="images\projects\django\admin-panel.jpg" alt="Django admin panel interface displaying article management dashboard with sidebar navigation, user controls, and article listing table" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\django\search-articles.jpg" alt="Search Articles Interface" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\django\create-articles.jpg" alt="Create Articles Interface" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/django/admin-panel.jpg" alt="Django admin panel interface displaying article management dashboard with sidebar navigation, user controls, and article listing table" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/django/search-articles.jpg" alt="Search articles interface showing search bar and article listing with pagination" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/django/create-articles.jpg" alt="Create article interface with title, content editor, and publish options" class="project-img" onclick="openModal(this.src)">
                     </div>
                     
                     <div class="project-features">
@@ -852,8 +852,8 @@
                     <p>A secure password management API built with FastAPI featuring AES-256 encryption, JWT authentication, and complete CRUD operations for password storage.</p>
                     
                     <div class="project-images">
-                        <img src="images\projects\fastapi\password-manager-dashboard.png" alt="Password Manager Dashboard" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\fastapi\user-signup.jpeg" alt="User Registration" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/fastapi/password-manager-dashboard.png" alt="Password manager dashboard showing security overview, vault entries, and password generator" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/fastapi/user-signup.jpg" alt="User registration form with email and password fields" class="project-img" onclick="openModal(this.src)">
                     </div>
                     
                     <div class="project-features">
@@ -893,10 +893,10 @@
                     <p>A comprehensive desktop application for managing employee records, calculating payroll, and generating salary slips with automated PDF generation.</p>
                     
                     <div class="project-images">
-                        <img src="images\projects\employee-system\employee-system-main.jpeg" alt="Employee Management Interface" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\employee-system\employee-home.png" alt="Application Home Screen" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\employee-system\payroll-calculator.jpeg" alt="Payroll Calculation" class="project-img" onclick="openModal(this.src)">
-                        <img src="images\projects\employee-system\salary-receipt-pdf.jpeg" alt="PDF Salary Receipt" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/employee-system/employee-system-main.jpg" alt="Employee management system interface showing employee details form and data table" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/employee-system/employee-home.png" alt="Application home screen with navigation options" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/employee-system/payroll-calculator.jpg" alt="Payroll calculator interface with employee details and salary breakdown" class="project-img" onclick="openModal(this.src)">
+                        <img src="images/projects/employee-system/salary-receipt-pdf.jpg" alt="Generated PDF salary receipt with company header and salary details" class="project-img" onclick="openModal(this.src)">
                     </div>
                     
                     <div class="project-features">
@@ -991,7 +991,7 @@
                         <i class="fas fa-paper-plane"></i> Send Email
                     </a>
                     <a href="Rohith_Vignesh_Resume.pdf" class="btn btn-outline" style="margin: 10px;">
-                        <i class="fas fa-download"></i> Download Resume
+                        <i class="fas fa-download"></i> Download Resume (PDF)
                     </a>
                 </div>
             </div>
@@ -1014,7 +1014,7 @@
                 </div>
                 <p>Python Developer | Backend Specialist | Software Engineer</p>
                 <div class="copyright">
-                    <p>&copy; 2024-2026 Rohith Vignesh. All Rights Reserved.</p>
+                    <p>&copy; <span id="currentYear"></span> Rohith Vignesh. All Rights Reserved.</p>
                     <p>Chennai, Tamil Nadu | Open to Opportunities</p>
                 </div>
             </div>
@@ -1082,22 +1082,16 @@
 
         // Auto-update copyright year
         document.addEventListener('DOMContentLoaded', function() {
-            const yearSpan = document.querySelector('.copyright p');
-            if(yearSpan) {
-                const currentYear = new Date().getFullYear();
-                yearSpan.innerHTML = yearSpan.innerHTML.replace('2024-2026', `2024-${currentYear}`);
-            }
+            const currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
         });
 
         // Download resume button functionality
         document.querySelector('a[href*="Resume"]').addEventListener('click', function(e) {
-            if(!confirm('Your resume will be downloaded. Continue?')) {
+            if(!confirm('Your resume (PDF) will be downloaded. Continue?')) {
                 e.preventDefault();
             }
         });
     </script>
 </body>
 </html>
-
-
-
