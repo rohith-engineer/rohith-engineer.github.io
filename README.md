@@ -45,13 +45,14 @@
 - 🔹 Tech: Django, PostgreSQL, Docker, Render
 - 🔹 Features: Auth, Search, API, Deployment
 - 🔗 Live: https://django-movie-app-tiks.onrender.com
-- 🔗 Repo: https://github.com/YOUR_USERNAME/django-movie-app
+- 🔗 Repo: https://github.com/rohith-engineer/django-movie-app
 
 ---
 
 ## 📊 GitHub Stats
 
-![Rohith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![Rohith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=
+ROHITH VIGNESH S&show_icons=true&theme=tokyonight)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
 
