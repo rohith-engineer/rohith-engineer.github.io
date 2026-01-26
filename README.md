@@ -51,10 +51,11 @@
 
 ## 📊 GitHub Stats
 
-![Rohith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=
-ROHITH VIGNESH S&show_icons=true&theme=tokyonight)
+![Rohith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohith-engineer&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohith-engineer&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohith-engineer&layout=compact&theme=tokyonight)
 
 ---
 
