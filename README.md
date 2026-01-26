@@ -1,55 +1,70 @@
----
-title: "Rohith's Portfolio"
-layout: default
----
+# 👋 Hi, I'm Rohith Vignesh 
 
-# 👋 Hello, I'm Rohith
-
-🚀 A passionate Python developer who loves building real-world solutions with code.
-
-I specialize in **desktop applications**, **automation scripts**, and **smart tools** using Python, Tkinter, MySQL, and GitHub.
+🚀 Computer Science Graduate | Python & Django Developer  
+💡 Building real-world tools and scalable web apps  
+🌱 Learning Cloud, DevOps & Backend Engineering  
 
 ---
 
-## 🌟 Featured Projects
+## 🧑‍💻 About Me
 
-### 🧰 Leone PDF Tool  
-**An all-in-one desktop PDF toolbox with 20+ powerful features.**  
-Built with: `Python`, `Tkinter`, `PyPDF2`, `Pillow`  
-🔗 [View on GitHub »](https://github.com/rohith-engineer/leone-pdf-tool)
-
----
-
-### 👨‍💼 Employee Management System  
-**Complete CRUD app for managing employees with image support and MySQL backend.**  
-Built with: `Python`, `Tkinter`, `MySQL`, `PIL`  
-🔗 [View on GitHub »](https://github.com/rohith-engineer/employee-management-system)
+- 🎓 Computer Science Graduate from India  
+- 💻 Passionate about Python, Django & Web Development  
+- ☁️ Interested in Cloud, Docker & Deployment  
+- 📈 Focused on building production-ready projects  
+- 🔥 Consistent learner & problem solver  
 
 ---
 
-### 📂 Smart File Organizer  
-**Python script that organizes your messy folders into clean directories by file type.**  
-Built with: `Python`, `os`, `shutil`  
-🔗 [View on GitHub »](https://github.com/rohith-engineer/smart-file-organizer)
+## 🛠️ Tech Stack
+
+### Languages
+- 🐍 Python
+- 🌐 JavaScript
+- 🧱 HTML & CSS
+
+### Frameworks & Tools
+- ⚙️ Django
+- 🐳 Docker
+- 🐘 PostgreSQL
+- 🔫 Gunicorn
+- ☁️ Render
+
+### Others
+- 🗂️ Git & GitHub
+- 🧪 API Integration
+- 🔐 Authentication Systems
 
 ---
 
-## 💡 Skills
+## 🚀 Featured Projects
 
-- 🐍 Python, Tkinter, MySQL
-- 📁 File Handling, Automation, Desktop GUI
-- 🌐 Git, GitHub, GitHub Pages
-- 📜 Markdown, HTML
+### 🎬 Django Movie App
+> Full-stack movie discovery platform with authentication and cloud deployment.
 
----
-
-## 📫 Contact Me
-
-- GitHub: [rohith-engineer](https://github.com/rohith-engineer)
-- Email: rohith200510@gmail.com
-- Portfolio: [rohith-engineer.github.io](https://rohith-engineer.github.io)
+- 🔹 Tech: Django, PostgreSQL, Docker, Render
+- 🔹 Features: Auth, Search, API, Deployment
+- 🔗 Live: https://django-movie-app-tiks.onrender.com
+- 🔗 Repo: https://github.com/YOUR_USERNAME/django-movie-app
 
 ---
 
-> *This website is built using GitHub Pages and Markdown, and proudly powered by open source tools.*
+## 📊 GitHub Stats
 
+![Rohith's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+
+---
+
+## 📫 Connect With Me
+
+- 🌐 LinkedIn: https://www.linkedin.com/in/rohith-vignesh-863056297
+- 📧 Email: rohith200510@gmail.com
+- 🌍 Portfolio: https://rohith-engineer.github.io/
+
+---
+
+## 💬 Motto
+
+> *“Build. Deploy. Improve. Repeat.”* 🔁🔥
